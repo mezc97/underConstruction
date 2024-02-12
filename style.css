@@ -38,6 +38,7 @@ body {
   letter-spacing: 3px;
   padding: 25px 0px;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .content .input-group {
@@ -51,6 +52,25 @@ body {
   padding-bottom: 12px;
 }
 
+.video-background {
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.logo-image {
+	width: 130px;
+	height: 130px;
+	object-fit: contain;
+}
+.wrap {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
 @media (max-width: 450px) {
   .content h1 {
     letter-spacing: 2px;
